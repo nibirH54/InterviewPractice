@@ -1,6 +1,6 @@
 package testcases;
 
-//Finf the missing number from a given array a[] = {1,2,4,5}
+//Find the missing number from a given array a[] = {1,2,4,5}
 public class MissingNumber {
 
     public static void main(String[] args) {
