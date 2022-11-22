@@ -1,6 +1,7 @@
 package testcases;
 
-//Find the missing number from a given array a[] = {1,2,4,5}
+//Find the missing number from a given array a[] = {1,2,4,5} 1+2+4+5= 12
+                                                              //1+2+3+4+5 = 15 =3
 public class MissingNumber {
 
     public static void main(String[] args) {
