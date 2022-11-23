@@ -1,5 +1,8 @@
 package testcases;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class DuplicateElements4 {
     public static void main(String[] args) {
 
@@ -12,5 +15,17 @@ public class DuplicateElements4 {
                 }
             }
         }
+
+        System.out.println("****************************************************************");
+
+        //Using HashSet
+
+        Set<String> store = new HashSet<String>();
+        for(String name : nums){
+            if(store.add(name) == false){
+                System.out.println("The duplicate element is :" + name);
+            }
+        }
+
     }
 }
