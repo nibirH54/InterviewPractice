@@ -1,10 +1,9 @@
 package testcases;
 
-public class ReverseString5 {
-
+public class ReverseString6 {
     public static void main(String[] args) {
 
-        String s = "Ichraq";
+        String s = "Accessibilty";//ytlibisseccA
         int len = s.length();
         String rev = "";
 
